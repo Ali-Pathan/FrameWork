@@ -1,0 +1,42 @@
+package Lib;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExceldataConfig {
+	XSSFWorkbook wb;
+	XSSFSheet sheet1;
+	
+	//using constractor
+	public ExceldataConfig(String ExcelPath){
+		//Before surround with try catch 
+//		File src=new File(ExcelPath);
+//		FileInputStream fis=new FileInputStream(src);
+//		wb=new XSSFWorkbook(fis);
+//		sheet1=wb.getSheetAt(0);
+		//using surround try catch
+		//after surround try catch
+		try {
+			File src=new File(ExcelPath);
+			FileInputStream fis=new FileInputStream(src);
+			wb=new XSSFWorkbook(fis);
+			sheet1=wb.getSheetAt(0);
+			//Its creat 2 catch i am going it use one catch and base extention as bellow
+//		} catch (FileNotFoundException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		} catch (Exception e) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+package ExcelReaderFromLib;
+
+import Lib.ExceldataConfig;
+
+public class ExcelRFLib {
+
+	public static void main(String[] args) {
+		
+		ExceldataConfig excel = new ExceldataConfig("/Users/rajive/Documents/Automation/workspace/ExcelDataReader/src/Properties/ExcelData.xlsx");
+		System.out.println(excel.getData(1, 0, 1));
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package CaptureScreenShot;
+
+import org.testng.annotations.Test;
+
+public class FacebookScreenShot {
+	@Test
+	public void captureScreenShot()
+	{
+		
+	}
+	
+
+}

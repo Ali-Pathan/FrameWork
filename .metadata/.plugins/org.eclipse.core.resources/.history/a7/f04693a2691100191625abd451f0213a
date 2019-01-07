@@ -1,0 +1,13 @@
+package FB;
+
+import org.testng.annotations.Test;
+
+public class LoginFb {
+	@Test
+	public void LoginToFacebook()
+	{
+		
+	}
+
+
+}

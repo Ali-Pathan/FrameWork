@@ -1,0 +1,39 @@
+package Facebook;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class FaceBook_LogIn {
+
+	public static void main(String[] args) {
+		String os = System.getProperty("os.name").toLowerCase();
+		
+		WebDriver driver = new ChromeDriver();
+		
+		if (os.contains("mac")){
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/chromedriver");
+		}else{
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
+			}
+			driver.get("https://www.facebook.com/");
+			System.out.println("Web site lunched");
+			driver.manage().window().maximize();
+			System.out.println("Web site Maximized");
+			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+			driver.findElement(By.id("email")).sendKeys("selenium1016@gmail.com");
+			System.out.println("Email address entered");
+			driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("testuser1234");
+			System.out.println("Password entered");
+			driver.findElement(By.xpath("//input[@value='Log In']")).click();
+			System.out.println("Login Button Clicked");
+			System.out.println(driver.getPageSource());
+
+			
+	}
+
+}

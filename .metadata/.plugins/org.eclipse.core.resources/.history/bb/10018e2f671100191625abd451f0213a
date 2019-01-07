@@ -1,0 +1,47 @@
+package DataDrivenTesting;
+
+import org.testng.annotations.Test;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.DataProvider;
+
+public class FacebookLogin {
+	
+	@Test
+	public void LoginToFacebook() throws Exception
+	{
+			WebDriver driver = new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/chromedriver");
+			driver.get("https://www.facebook.com/");
+			driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+			Thread.sleep(2000);
+			driver.manage().window().maximize();
+			System.out.println("Web site lunched");
+			
+			
+			driver.findElement(By.id("email")).sendKeys("");
+			System.out.println("Email address entered");
+			driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("");
+			System.out.println("Password entered");
+			driver.findElement(By.xpath("//input[@value='Log In']")).click();
+			System.out.println("Login Button Clicked");
+		
+	}
+//	//using object type array
+//	@DataProvider(name="FacebookData")
+//	public Object[][] PassData()
+//	{
+//		Object [][] data = new Object[3][2];
+//		data[0][0]="abcd@gmail.com";
+//		data[0][1]="abcd1234";
+//		data[1][0]="selenium1016@gmail.com";
+//		data[1][1]="testuser1234";
+//		data[2][0]="abcdef@gmail.com";
+//		data[2][1]="abcdef1234";
+//		return data;
+//	}
+
+}

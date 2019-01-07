@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DecimalFormat.DecimalFormat&apos; to &apos;Decimal&apos;&#x0A;- Original project: &apos;JavaIntroduction&apos;&#x0A;- Original element: &apos;DecimalFormat.DecimalFormat&apos;&#x0A;- Renamed element: &apos;DecimalFormat.Decimal&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DecimalFormat&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;DecimalFormat{DecimalFormat.java[DecimalFormat" matchStrategy="1" name="Decimal" qualified="false" references="true" similarDeclarations="false" stamp="1540947492226" textual="false" version="1.0"/>
+</session>

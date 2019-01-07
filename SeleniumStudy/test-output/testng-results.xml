@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="104275" started-at="2019-01-06T17:36:34Z" finished-at="2019-01-06T17:38:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="104275" started-at="2019-01-06T17:36:34Z" finished-at="2019-01-06T17:38:18Z">
+      <class name="DDT.FacebookLoginExcel">
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="8308" started-at="2019-01-06T17:36:35Z" data-provider="excel" finished-at="2019-01-06T17:36:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[From Propertiese folder first row ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="95" started-at="2019-01-06T17:36:43Z" finished-at="2019-01-06T17:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="6622" started-at="2019-01-06T17:36:43Z" data-provider="excel" finished-at="2019-01-06T17:36:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="100" started-at="2019-01-06T17:36:50Z" finished-at="2019-01-06T17:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="7021" started-at="2019-01-06T17:36:50Z" data-provider="excel" finished-at="2019-01-06T17:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="98" started-at="2019-01-06T17:36:57Z" finished-at="2019-01-06T17:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="8419" started-at="2019-01-06T17:36:57Z" data-provider="excel" finished-at="2019-01-06T17:37:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="99" started-at="2019-01-06T17:37:05Z" finished-at="2019-01-06T17:37:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="7671" started-at="2019-01-06T17:37:05Z" data-provider="excel" finished-at="2019-01-06T17:37:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="99" started-at="2019-01-06T17:37:13Z" finished-at="2019-01-06T17:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="7592" started-at="2019-01-06T17:37:13Z" data-provider="excel" finished-at="2019-01-06T17:37:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="95" started-at="2019-01-06T17:37:21Z" finished-at="2019-01-06T17:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="7474" started-at="2019-01-06T17:37:21Z" data-provider="excel" finished-at="2019-01-06T17:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="100" started-at="2019-01-06T17:37:28Z" finished-at="2019-01-06T17:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="7088" started-at="2019-01-06T17:37:28Z" data-provider="excel" finished-at="2019-01-06T17:37:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="97" started-at="2019-01-06T17:37:36Z" finished-at="2019-01-06T17:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="6686" started-at="2019-01-06T17:37:36Z" data-provider="excel" finished-at="2019-01-06T17:37:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="101" started-at="2019-01-06T17:37:42Z" finished-at="2019-01-06T17:37:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="6909" started-at="2019-01-06T17:37:42Z" data-provider="excel" finished-at="2019-01-06T17:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="105" started-at="2019-01-06T17:37:49Z" finished-at="2019-01-06T17:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="7787" started-at="2019-01-06T17:37:49Z" data-provider="excel" finished-at="2019-01-06T17:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="96" started-at="2019-01-06T17:37:57Z" finished-at="2019-01-06T17:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="7165" started-at="2019-01-06T17:37:57Z" data-provider="excel" finished-at="2019-01-06T17:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="95" started-at="2019-01-06T17:38:04Z" finished-at="2019-01-06T17:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="6832" started-at="2019-01-06T17:38:05Z" data-provider="excel" finished-at="2019-01-06T17:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="97" started-at="2019-01-06T17:38:11Z" finished-at="2019-01-06T17:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LoginToFacebook(java.lang.String, java.lang.String)[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="LoginToFacebook" duration-ms="6821" started-at="2019-01-06T17:38:12Z" data-provider="excel" finished-at="2019-01-06T17:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToFacebook -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DDT.FacebookLoginExcel@6d4b1c02]" name="tearDown" is-config="true" duration-ms="105" started-at="2019-01-06T17:38:18Z" finished-at="2019-01-06T17:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DDT.FacebookLoginExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

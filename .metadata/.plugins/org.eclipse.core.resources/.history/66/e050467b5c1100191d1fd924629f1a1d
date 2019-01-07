@@ -1,0 +1,19 @@
+package DataDrivenTesting;
+
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FacebookLogin {
+	
+	@Test
+	public void LoginToFacebook()
+	{
+			WebDriver driver = new ChromeDriver();
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/chromedriver");
+			driver.get("https://www.facebook.com/");
+			System.out.println("Web site lunched");
+		
+	}
+
+}

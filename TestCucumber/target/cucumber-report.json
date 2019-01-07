@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Facebook Login Scenario",
+        "description": "",
+        "id": "free-facebook-login-feature;facebook-login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4702689650,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user at login page",
+            "match": {
+              "location": "LoginStepDefinition.user_at_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7078927,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of the page is Facebook",
+            "match": {
+              "location": "LoginStepDefinition.title_of_the_page_is_Facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 398216234,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enter_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4002431463,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on login",
+            "match": {
+              "location": "LoginStepDefinition.user_click_on_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free FaceBook Login Feature",
+    "description": "",
+    "id": "free-facebook-login-feature",
+    "keyword": "Feature",
+    "uri": "/Users/rajive/Documents/Automation/workspace/TestCucumber/Feature/login.feature"
+  }
+]

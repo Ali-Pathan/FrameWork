@@ -1,0 +1,16 @@
+package DataDrivenTesting;
+
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FacebookLogin {
+	
+	@Test
+	public void LoginToFacebook()
+	{
+		WebDriver driver = new ChromeDriver();
+		
+	}
+
+}
